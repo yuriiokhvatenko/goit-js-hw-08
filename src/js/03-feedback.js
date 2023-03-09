@@ -18,6 +18,7 @@ function handleInputForLocalStorage(e) {
 function handleSubmitBtnClick(e) {
     e.preventDefault();
     formRef.reset();
+    console.log(localStorageValuesFromForm);
     localStorage.removeItem(LOCALSTORAGE_KEY);
 }
 
